@@ -5,11 +5,13 @@ import { bootstrapApplication } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { LoungeWearComponent } from './lounge-wear/lounge-wear.component';
 import { BottomWearComponent } from './bottom-wear/bottom-wear.component';
+import { TshirtsComponent } from './tshirts/tshirts.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'lounge', component: LoungeWearComponent },
     { path: 'bottom', component: BottomWearComponent },
+    { path: 'tshirt', component: TshirtsComponent },
     { path: '**', redirectTo: '' }
   ];
   
