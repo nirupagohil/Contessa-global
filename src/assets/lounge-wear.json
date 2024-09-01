@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "JASMINE",
+        "sizes": ["S", "M", "L", "XL", "XXL"],
+        "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"]
+    },
+    {
+        "id": 2,
+        "name": "CO-ORD NIGHT SUITS",
+        "sizes": ["S", "M", "L", "XL", "XXL"],
+        "colors": ["Pink", "Purple", "Grey", "Black", "White", "Teal"]
+    },
+    {
+        "id": 3,
+        "name": "COLLARED NIGHT SUITS",
+        "sizes": ["S", "M", "L", "XL", "XXL"],
+        "colors": ["Blue", "Navy", "Lavender", "White", "Grey", "Black", "Maroon", "Beige", "Brown", "Olive"]
+    },
+    {
+        "id": 4,
+        "name": "PYJAMA TSHIRT SET",
+        "sizes": ["S", "M", "L", "XL", "XXL"],
+        "colors": ["Black", "White", "Grey", "Blue", "Red", "Yellow"]
+    }
+]
