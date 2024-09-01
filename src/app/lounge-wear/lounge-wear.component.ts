@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { LoungeWearService } from '../lounge-wear.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-lounge-wear',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, HttpClientModule],
   templateUrl: './lounge-wear.component.html',
   styleUrl: './lounge-wear.component.scss'
 })
