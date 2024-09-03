@@ -5,13 +5,12 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class LoungeWearService {
-
-  private loungewearUrl = 'assets/lounge-wear.json';
+export class BottomWearService {
+  private bottomwearUrl = 'assets/bottom-wear.json';
   
   constructor(private http: HttpClient) {}
 
   getProducts(): Observable<any[]> {
-    return this.http.get<any[]>(this.loungewearUrl);
+    return this.http.get<any[]>(this.bottomwearUrl);
   }
 }

@@ -1,1 +1,30 @@
-<p>bottom-wear works!</p>
+<div class="container">
+    <!-- Card deck -->
+    <div class="card-deck row">
+      <div *ngFor="let item of products; let i = index;" class="col-xs-12 col-sm-6 col-md-3">
+        <!-- Card -->
+        <div class="card">
+          <!--Card image-->
+          <div class="view overlay">
+            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--Card content-->
+          <div class="card-body text-center">
+            <!--Brand Title-->
+            <h4 class="card-title font-weight-bold">{{ item.brand }}</h4>
+            <!--Product Name-->
+            <p class="card-text text-muted">{{ item.name }}</p>
+            <!--Price-->
+            <h5 class="card-price text-primary">{{ item.price | currency:'INR':'symbol' }}</h5>
+          </div>
+          
+        </div>
+        <!-- Card -->
+      </div>
+    </div>
+    <!-- Card deck -->
+  </div>
+  

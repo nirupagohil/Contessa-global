@@ -1,0 +1,23 @@
+<h2 mat-dialog-title>Product Details</h2>
+<mat-dialog-content>
+  <div class="dialog-content-container">
+    <!-- Product Image Slider -->
+    <div class="slider-container">
+      <app-image-slider [images]="['https://mdbootstrap.com/img/Photos/Others/images/16.jpg', 'https://mdbootstrap.com/img/Photos/Others/images/16.jpg']"></app-image-slider>
+    </div>
+
+    <!-- Product Details -->
+    <div class="product-details">
+      <h3>{{ data.name }}</h3>
+      <h4>Brand: {{ data.brand }}</h4>
+      <p><strong>Price:</strong> {{ data.price | currency }}</p>
+      <p><strong>Sizes:</strong> {{ data.sizes.join(', ') }}</p>
+      <p><strong>Colors:</strong> {{ data.colors.join(', ') }}</p>
+    </div>
+  </div>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button (click)="onCancel()">Cancel</button>
+  <button mat-button color="primary" (click)="onClose()">Confirm</button>
+</mat-dialog-actions>

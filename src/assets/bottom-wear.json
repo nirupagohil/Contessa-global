@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "CIGAR PANTS",
+        "sizes": ["XL", "XXL ", "3XL", "4XL"],
+        "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
+        "brand": "",
+        "price": "2000"
+    },
+    {
+        "id": 1,
+        "name": "KURTI PANTS",
+        "sizes": ["XL", "XXL ", "3XL", "4XL"],
+        "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
+        "brand": "",
+        "price": "2000"
+    },
+    {
+        "id": 1,
+        "name": "RAYON PLAZZO PANTS",
+        "sizes": ["XL", "XXL ", "3XL", "4XL"],
+        "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
+        "brand": "",
+        "price": "2000"
+    },
+    {
+        "id": 1,
+        "name": "ANKLE LENGTH LEGGINGS",
+        "sizes": ["XL", "XXL ", "3XL", "4XL"],
+        "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
+        "brand": "",
+        "price": "2000"
+    },
+    {
+        "id": 1,
+        "name": "CHURIDAR LEGGINGS",
+        "sizes": ["XL", "XXL ", "3XL", "4XL"],
+        "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
+        "brand": "",
+        "price": "2000"
+    },
+    {
+        "id": 1,
+        "name": "PRINTED PYJAMAS",
+        "sizes": ["XL", "XXL ", "3XL", "4XL"],
+        "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
+        "brand": "",
+        "price": "2000"
+    }
+]

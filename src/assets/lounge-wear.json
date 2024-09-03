@@ -1,26 +1,38 @@
 [
     {
         "id": 1,
-        "name": "JASMINE",
+        "name": "CASUAL COORD SET",
         "sizes": ["S", "M", "L", "XL", "XXL"],
-        "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"]
+        "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
+        "brand": "TIE DYE",
+        "price": "2000",
+        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"]
     },
     {
         "id": 2,
         "name": "CO-ORD NIGHT SUITS",
         "sizes": ["S", "M", "L", "XL", "XXL"],
-        "colors": ["Pink", "Purple", "Grey", "Black", "White", "Teal"]
+        "colors": ["Pink", "Purple", "Grey", "Black", "White", "Teal"],
+        "brand": "JASMINE",
+        "price": "2000",
+        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"]
     },
     {
         "id": 3,
         "name": "COLLARED NIGHT SUITS",
         "sizes": ["S", "M", "L", "XL", "XXL"],
-        "colors": ["Blue", "Navy", "Lavender", "White", "Grey", "Black", "Maroon", "Beige", "Brown", "Olive"]
+        "colors": ["Blue", "Navy", "Lavender", "White", "Grey", "Black", "Maroon", "Beige", "Brown", "Olive"],
+        "brand": "SOFIA",
+        "price": "2000",
+        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"]
     },
     {
         "id": 4,
         "name": "PYJAMA TSHIRT SET",
         "sizes": ["S", "M", "L", "XL", "XXL"],
-        "colors": ["Black", "White", "Grey", "Blue", "Red", "Yellow"]
+        "colors": ["Black", "White", "Grey", "Blue", "Red", "Yellow"],
+        "brand": "FLORA",
+        "price": "2000",
+        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"]
     }
 ]

@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "SOLID SHORT SLEEVE TSHIRT",
+        "sizes": ["XL", "XXL ", "3XL", "4XL"],
+        "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
+        "brand": "",
+        "price": "2000"
+    },
+    {
+        "id": 1,
+        "name": "PRINTED SHORT SLEEVE TSHIRT",
+        "sizes": ["XL", "XXL ", "3XL", "4XL"],
+        "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
+        "brand": "",
+        "price": "2000"
+    }
+]

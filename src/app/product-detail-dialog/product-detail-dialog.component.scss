@@ -1,0 +1,29 @@
+.dialog-content-container {
+    display: flex;
+    flex-direction: column; /* Stack vertically on small screens */
+    gap: 1rem;
+    
+    @media (min-width: 600px) {
+      flex-direction: row; /* Side by side on larger screens */
+    }
+  }
+  
+  .slider-container {
+    flex: 1;
+    max-width: 50%; /* Adjust width as needed */
+    overflow: hidden;
+  }
+  
+  .product-details {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .mat-dialog-content {
+    padding: 0;
+  }
+  
+  .mat-dialog-actions {
+    padding: 0.5rem;
+  }
+  

@@ -1,0 +1,10 @@
+<div class="slider-container">
+    <div class="slider" [style.transform]="getTransform()">
+      <div class="slide" *ngFor="let image of images">
+        <img [src]="image" alt="Product Image" class="slider-image">
+      </div>
+    </div>
+    <button mat-button (click)="prevSlide()">Prev</button>
+    <button mat-button (click)="nextSlide()">Next</button>
+  </div>
+  
