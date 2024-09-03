@@ -8,6 +8,7 @@ import { BottomWearComponent } from './bottom-wear/bottom-wear.component';
 import { TshirtsComponent } from './tshirts/tshirts.component';
 import { ManTshirtComponent } from './man-tshirt/man-tshirt.component';
 import { ManTrackpantComponent } from './man-trackpant/man-trackpant.component';
+import { AboutComponent } from './about/about.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
@@ -16,6 +17,7 @@ export const routes: Routes = [
     { path: 'tshirt', component: TshirtsComponent },
     { path: 'mantshirt', component: ManTshirtComponent },
     { path: 'track', component: ManTrackpantComponent },
+    { path: 'about', component: AboutComponent },
     { path: '**', redirectTo: '' }
   ];
   
