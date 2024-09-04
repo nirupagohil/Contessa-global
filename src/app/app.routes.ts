@@ -9,6 +9,7 @@ import { TshirtsComponent } from './tshirts/tshirts.component';
 import { ManTshirtComponent } from './man-tshirt/man-tshirt.component';
 import { ManTrackpantComponent } from './man-trackpant/man-trackpant.component';
 import { AboutComponent } from './about/about.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
@@ -18,6 +19,7 @@ export const routes: Routes = [
     { path: 'mantshirt', component: ManTshirtComponent },
     { path: 'track', component: ManTrackpantComponent },
     { path: 'about', component: AboutComponent },
+    { path: 'contact', component: ContactusComponent },
     { path: '**', redirectTo: '' }
   ];
   
