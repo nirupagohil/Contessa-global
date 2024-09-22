@@ -1,5 +1,5 @@
 .mainnav {
-    background-color: #008080; /* Teal color */
+    background-color: #512940; /* Teal color */
 }
 .navbar {
     position: relative;
@@ -8,6 +8,9 @@
 }
 #mainnav {
     height: 70px; /* Set this to match the actual height of your header */
+    position: fixed;
+    padding: 40px 60px !important;
+    border-bottom: 1px solid #ddd;
   }
 #mainnav ul {
     list-style: none;
@@ -88,5 +91,27 @@
     filter: alpha(opacity=100);
     opacity: 1;
     visibility: visible;
+}
+
+.navbar-collapse.collapse {
+    display: flex !important;
+    justify-content: flex-start;
+    position: relative;
+    left: 21%;
+} 
+
+.nav-link {
+    text-decoration: none;
+    padding: 15px 20px !important;
+    font-size: 16px;
+}
+
+.navItemsDiff:hover, .navItemsDiff:focus, navItemsDiff:active {
+    color: #000000 !important;
+    background-color: #ffffff22;
+}
+
+.visibleHover:hover {
+    background-color: #51294022;
 }
 

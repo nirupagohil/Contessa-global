@@ -6,7 +6,15 @@
         "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
         "brand": "TIE DYE",
         "price": "2000",
-        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"]
+        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"],
+        "description": "Shop From A Wide Range Of Co-ords Set From Contessa. Our Co-ords set Are Crafted With Export Quality Cotton Tie & Dye Fabric Pyjama and Printed Top for women. Elasticated Waist Band With Lurex Drawcords And One Side Pocket In Pyjama.",
+        "productType": "Night Suits",
+        "Pattern": "Printed SLEEP SET",
+        "Sleeves": "Half Sleeves",
+        "fit": "Relaxed Fit",
+        "productMaterial": "Cotton",
+        "length": "Full Length",
+        "neck": "Spread Collar"
     },
     {
         "id": 2,
@@ -15,7 +23,15 @@
         "colors": ["Pink", "Purple", "Grey", "Black", "White", "Teal"],
         "brand": "JASMINE",
         "price": "2000",
-        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"]
+        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"],
+        "description": "",
+        "productType": "Night Suits",
+        "Pattern": "Printed SLEEP SET",
+        "Sleeves": "Half Sleeves",
+        "fit": "Relaxed Fit",
+        "productMaterial": "Cotton",
+        "length": "Full Length",
+        "neck": "Spread Collar"
     },
     {
         "id": 3,
@@ -24,7 +40,15 @@
         "colors": ["Blue", "Navy", "Lavender", "White", "Grey", "Black", "Maroon", "Beige", "Brown", "Olive"],
         "brand": "SOFIA",
         "price": "2000",
-        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"]
+        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"],
+        "description": "The Contessa Women Cotton Top and Pyjama Set provide optimal comfort and style during the summer months. This lightweight nightwear set is specifically designed for warm nights and provides just the right balance of comfort and breathability. It's made of high-quality cotton fabric, which allows for maximum airflow and keeps you cool and fresh all night. The adaptable full-sleeve design gives just enough coverage for chilly summer evenings, while the pyjama bottoms' comfy fit allows for free movement, assuring a comfortable night's sleep. The regular peach hue adds a touch of elegance to your summer sleepwear collection, making this set a must-have for casual evenings at home or peaceful nights away. Available in size 2XL, it's a great fit for anyone looking for stylish and calm summer sleepwear. Cadila also has a variety of products such as camisole, half sleeve cotton t-shirt, cigarette pants, pyjama set, and leggings.",
+        "productType": "Night Suits",
+        "Pattern": "Printed SLEEP SET",
+        "Sleeves": "Half Sleeves",
+        "fit": "Relaxed Fit",
+        "productMaterial": "Cotton",
+        "length": "Full Length",
+        "neck": "Spread Collar"
     },
     {
         "id": 4,
@@ -33,6 +57,14 @@
         "colors": ["Black", "White", "Grey", "Blue", "Red", "Yellow"],
         "brand": "FLORA",
         "price": "2000",
-        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"]
+        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"],
+        "description": "",
+        "productType": "Night Suits",
+        "Pattern": "Printed SLEEP SET",
+        "Sleeves": "Half Sleeves",
+        "fit": "Relaxed Fit",
+        "productMaterial": "Cotton",
+        "length": "Full Length",
+        "neck": "Spread Collar"
     }
 ]

@@ -4,6 +4,7 @@ import { LoungeWearService } from '../lounge-wear.service';
 import { HttpClientModule } from '@angular/common/http';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { ProductDetailDialogComponent } from '../product-detail-dialog/product-detail-dialog.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-lounge-wear',
@@ -17,7 +18,8 @@ export class LoungeWearComponent {
 
   constructor(
     private _loungeService: LoungeWearService,
-    public dialog: MatDialog
+    public dialog: MatDialog,
+    private router: Router
   ) { }
 
   ngOnInit() {
@@ -26,15 +28,19 @@ export class LoungeWearComponent {
     });
   }
 
-  openDialog(product: any) {
-    const dialogRef = this.dialog.open(ProductDetailDialogComponent, {
-      width: '60vw', 
-      maxWidth: '70vw', 
-      data: product
-    });
-  
-    dialogRef.afterClosed().subscribe(result => {
-      console.log('Dialog closed', result);
-    });
+  openDetail(id: any) {
+    this.router.navigate(['/detail', 2,id]);   //2 for lounge wear
   }
+
+  // openDialog(product: any) {
+  //   const dialogRef = this.dialog.open(ProductDetailDialogComponent, {
+  //     width: '60vw', 
+  //     maxWidth: '70vw', 
+  //     data: product
+  //   });
+  
+  //   dialogRef.afterClosed().subscribe(result => {
+  //     console.log('Dialog closed', result);
+  //   });
+  // }
 }

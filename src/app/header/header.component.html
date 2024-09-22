@@ -1,36 +1,38 @@
 <header>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top px-5 py-3 mainnav" id="mainnav">
-      <a class="navbar-brand" href="#">Contessa Global</a>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top px-5 py-3 mainnav" id="mainnav" style="position: fixed;border-bottom: 1px solid #ddd;">
+      <a class="navbar-brand" href="#">
+        <img style="object-position: 50% 50%; width: 150px;" data-type="image" itemprop="image" src="assets/logo.png">
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto" style="gap: 40px;">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home </a>
+            <a class="nav-link navItemsDiff" href="#">Home </a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link">Men</a>
+            <a class="nav-link navItemsDiff">Men</a>
             <ul class="submenu">
-              <li><a href="index.html" routerLink="/mantshirt">Tshirts</a></li>
-              <li><a href="index-v2.html" routerLink="/track">Track Pant</a></li>
+              <li><a href="index.html" class="visibleHover" routerLink="/mantshirt">Tshirts</a></li>
+              <li><a href="index-v2.html" class="visibleHover" routerLink="/track">Track Pant</a></li>
             </ul>
           </li>
           <li class="nav-item active">
-            <a class="nav-link">Women</a>
+            <a class="nav-link navItemsDiff">Women</a>
             <ul class="submenu">
-              <li><a class="nav-link" routerLink="/lounge">Lounge Wear</a></li>
-              <li><a class="nav-link" routerLink="/bottom">Bottom Wear</a></li>
-              <li><a class="nav-link" routerLink="/tshirt">Tshirts</a></li>
+              <li><a class="nav-link visibleHover" routerLink="/lounge">Lounge Wear</a></li>
+              <li><a class="nav-link visibleHover" routerLink="/bottom">Bottom Wear</a></li>
+              <li><a class="nav-link visibleHover" routerLink="/tshirt">Tshirts</a></li>
             </ul>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" routerLink="/about">About</a>
+            <a class="nav-link navItemsDiff" routerLink="/about">About</a>
           </li>
           
           <li class="nav-item active">
-            <a class="nav-link" routerLink="/contact">Contact</a>
+            <a class="nav-link navItemsDiff" routerLink="/contact">Contact</a>
           </li>
         </ul>
       </div>

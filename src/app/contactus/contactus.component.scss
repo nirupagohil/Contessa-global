@@ -1,5 +1,6 @@
 section {
     padding: 60px 0;
+    margin-top: -60px;
     min-height: 100vh;
 }
 
@@ -13,7 +14,7 @@ section {
 }
 
 .contact-info-item {
-    background: teal;
+    background: #512940;
     padding: 30px 20px;
     border-radius: 10px;
     flex: 1;
@@ -21,21 +22,22 @@ section {
     flex-direction: column;
     justify-content: center;
     transition: background-color 0.3s ease;
+    
+    color: #fff;
     height: 100%;
 }
 
 .contact-info-item:hover {
-    background: #071c34;
+    background: #ff009314;
+    color: #000 !important;
 }
 
 .contact-info-icon i {
     font-size: 48px;
-    color: #fff;
     margin-bottom: 15px;
 }
 
 .contact-info-text h2 {
-    color: #fff;
     font-size: 22px;
     text-transform: capitalize;
     font-weight: 600;
@@ -43,7 +45,6 @@ section {
 }
 
 .contact-info-text span {
-    color: #ddd;
     font-size: 16px;
     display: inline-block;
     width: 100%;

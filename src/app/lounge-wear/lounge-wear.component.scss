@@ -38,4 +38,7 @@
 
 .text-center {
     text-align: center; /* Center align the text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

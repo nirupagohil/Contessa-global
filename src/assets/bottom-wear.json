@@ -5,7 +5,16 @@
         "sizes": ["XL", "XXL ", "3XL", "4XL"],
         "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
         "brand": "",
-        "price": "2000"
+        "price": "2000",
+        "productType": "Night Suits",
+        "Pattern": "Printed SLEEP SET",
+        "Sleeves": "Half Sleeves",
+        "fit": "Relaxed Fit",
+        "productMaterial": "Cotton",
+        "length": "Full Length",
+        "neck": "Spread Collar",
+        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"],
+        "description": ""
     },
     {
         "id": 1,
@@ -13,7 +22,16 @@
         "sizes": ["XL", "XXL ", "3XL", "4XL"],
         "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
         "brand": "",
-        "price": "2000"
+        "price": "2000",
+        "productType": "Night Suits",
+        "Pattern": "Printed SLEEP SET",
+        "Sleeves": "Half Sleeves",
+        "fit": "Relaxed Fit",
+        "productMaterial": "Cotton",
+        "length": "Full Length",
+        "neck": "Spread Collar",
+        "description": "",
+        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"]
     },
     {
         "id": 1,
@@ -21,7 +39,16 @@
         "sizes": ["XL", "XXL ", "3XL", "4XL"],
         "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
         "brand": "",
-        "price": "2000"
+        "price": "2000",
+        "productType": "Night Suits",
+        "Pattern": "Printed SLEEP SET",
+        "Sleeves": "Half Sleeves",
+        "fit": "Relaxed Fit",
+        "productMaterial": "Cotton",
+        "length": "Full Length",
+        "neck": "Spread Collar",
+        "description": "",
+        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"]
     },
     {
         "id": 1,
@@ -29,7 +56,16 @@
         "sizes": ["XL", "XXL ", "3XL", "4XL"],
         "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
         "brand": "",
-        "price": "2000"
+        "price": "2000",
+        "productType": "Night Suits",
+        "Pattern": "Printed SLEEP SET",
+        "Sleeves": "Half Sleeves",
+        "fit": "Relaxed Fit",
+        "productMaterial": "Cotton",
+        "length": "Full Length",
+        "neck": "Spread Collar",
+        "description": "",
+        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"]
     },
     {
         "id": 1,
@@ -37,7 +73,16 @@
         "sizes": ["XL", "XXL ", "3XL", "4XL"],
         "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
         "brand": "",
-        "price": "2000"
+        "price": "2000",
+        "productType": "Night Suits",
+        "Pattern": "Printed SLEEP SET",
+        "Sleeves": "Half Sleeves",
+        "fit": "Relaxed Fit",
+        "productMaterial": "Cotton",
+        "length": "Full Length",
+        "neck": "Spread Collar",
+        "description": "",
+        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"]
     },
     {
         "id": 1,
@@ -45,6 +90,15 @@
         "sizes": ["XL", "XXL ", "3XL", "4XL"],
         "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
         "brand": "",
-        "price": "2000"
+        "price": "2000",
+        "productType": "Night Suits",
+        "Pattern": "Printed SLEEP SET",
+        "Sleeves": "Half Sleeves",
+        "fit": "Relaxed Fit",
+        "productMaterial": "Cotton",
+        "length": "Full Length",
+        "neck": "Spread Collar",
+        "description": "",
+        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"]
     }
 ]

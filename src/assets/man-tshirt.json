@@ -5,6 +5,15 @@
         "sizes": ["XL", "XXL ", "3XL", "4XL"],
         "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
         "brand": "",
-        "price": "2000"
+        "price": "2000",
+        "description": "Experience ultimate comfort and style with our Casual T-Shirt for men. Made from premium cotton fabric, it offers a relaxed fit and unrestricted movement. Perfect for any occasion, from casual outings to lounging at home. This versatile t-shirt is a must-have addition to your wardrobe, providing a timeless and effortless fashion statement. Upgrade your comfort and style game today with Contessa Mens T-shirts!!!",
+        "productType": "Night Suits",
+        "Pattern": "Printed SLEEP SET",
+        "Sleeves": "Half Sleeves",
+        "fit": "Relaxed Fit",
+        "productMaterial": "Cotton",
+        "length": "Full Length",
+        "neck": "Spread Collar",
+        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"]
     }
 ]

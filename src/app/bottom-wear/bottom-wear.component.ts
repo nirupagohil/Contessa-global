@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { BottomWearService } from '../bottom-wear.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-bottom-wear',
@@ -13,11 +14,15 @@ import { BottomWearService } from '../bottom-wear.service';
 export class BottomWearComponent {
   public products: any = [];
 
-  constructor(private _bottomService: BottomWearService) { }
+  constructor(private _bottomService: BottomWearService, private router: Router) { }
 
   ngOnInit() {
     this._bottomService.getProducts().subscribe(data => {
       this.products = data;
     });
+  }
+
+  openDetail(id: any) {
+    this.router.navigate(['/detail', 1,id]); 
   }
 }

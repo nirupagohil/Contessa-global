@@ -3,7 +3,7 @@
     <div class="card-deck row">
       <div *ngFor="let item of products; let i = index;" class="col-xs-12 col-sm-6 col-md-3">
         <!-- Card -->
-        <div class="card">
+        <div class="card" (click)="openDetail(item.id)">
           <!--Card image-->
           <div class="view overlay">
             <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
