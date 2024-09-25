@@ -1,0 +1,86 @@
+/* Global container for the product detail page */
+.product-detail-page {
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif; /* Consistent font */
+    padding: 20px;
+  }
+  
+  /* Carousel wrapper to add spacing */
+  .carousel-wrapper {
+    margin-bottom: 30px; /* Add spacing below carousel */
+  }
+  
+  /* Proper spacing for all headers and product details */
+  .product-info h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Muli', sans-serif; /* Ensures font consistency */
+  }
+  
+  .product-info .brand,
+  .product-info .price,
+  .product-info .description {
+    font-size: 13px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  /* Size button styling */
+  .sizes .btn-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .size-btn.active {
+    background-color: #e88421;
+    color: white;
+    border-color: #e88421;
+  }
+  
+  /* Color button styling */
+  .color-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .color-box {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: border 0.3s ease;
+  }
+  
+  .color-box.active {
+    border: 2px solid #e88421;
+  }
+  
+  /* Carousel image styling */
+  .carousel img {
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* Add to Cart Button */
+  .add-to-cart button {
+    padding: 12px 0;
+    font-size: 20px;
+  }
+  
+  .add-to-cart button:hover {
+    background-color: #e88421;
+    border-color: #e88421;
+  }
+  
+  /* Ensure proper spacing for the overall design */
+  .mt-3 {
+    margin-top: 20px;
+  }
+  
+  .mt-4 {
+    margin-top: 30px;
+  }
+  

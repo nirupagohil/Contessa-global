@@ -1,0 +1,60 @@
+ @if(product){
+ <div class="container product-detail-page">
+    <!-- Carousel Section -->
+    <div class="row" style="margin-top: 5%;">
+      <div class="col-md-6">
+        <div class="carousel-wrapper">
+          <ngb-carousel *ngIf="product?.imageUrls?.length > 0" [interval]="3000">
+            <ng-template ngbSlide *ngFor="let imageUrl of product.imageUrls">
+              <img [src]="imageUrl" class="d-block w-100" alt="{{ product.name }}">
+            </ng-template>
+          </ngb-carousel>
+        </div>
+      </div>
+  
+      <!-- Product Details Section -->
+      <div class="col-md-6 product-info">
+        <h1>{{ product.name }}</h1>
+        <p class="brand"><strong>Brand:</strong> {{ product.brand }}</p>
+        <p class="price">Price: ₹{{ product.price }}</p>
+  
+        <!-- Size Selection -->
+        <div class="sizes">
+          <p><strong>Sizes:</strong></p>
+          <div class="btn-group">
+            <button 
+              *ngFor="let size of product.sizes" 
+              class="btn btn-outline-secondary size-btn"
+              [class.active]="selectedSize === size"
+              (click)="selectSize(size)">
+              {{ size }}
+            </button>
+          </div>
+        </div>
+  
+        <!-- Color Selection -->
+        <div class="colors mt-3">
+          <p><strong>Colors:</strong></p>
+          <div class="color-options">
+            <div 
+              *ngFor="let color of product.colors" 
+              class="color-box" 
+              [ngStyle]="{'background-color': getColor(color)}"
+              (click)="selectColor(color)"
+              [class.active]="selectedColor === color">
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-3">
+            <p class="description">{{ product.description }}</p>
+        </div>
+  
+        <!-- Add to Cart Button -->
+        <!-- <div class="add-to-cart mt-4">
+          <button class="btn btn-primary btn-block">Add to Cart</button>
+        </div> -->
+      </div>
+    </div>
+  </div>}
+  

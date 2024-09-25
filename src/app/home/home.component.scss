@@ -1,24 +1,127 @@
-.carousel-caption {
-    font-size: 12px;
-    font-style: italic;
-    font-weight: bold;
-    /* display: none;  remove comment to hide captions */
-  }
+.carousel-container {
+  width: 100vw; /* Make sure the carousel takes the full width of the viewport */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0; /* Remove padding from the container */
+}
+
+img {
+  width: 100vw; /* Make the image span the full viewport width */
+  height: auto; /* Ensure height adjusts based on aspect ratio */
+  object-fit: cover; /* Ensures the image covers the entire width */
+}
+
+.carousel {
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  margin-top: 80px;
+}
+
+.carousel img {
+  display: block;
+}
+
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.carousel button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.carousel button:first-child {
+  left: 0;
+}
+
+.carousel button:last-child {
+  right: 0;
+}
+
+
+
+.vertWrapper{
+  position: relative;
+  height: 100%;
+}
+.wrapper{
+  margin: 0 auto;
+  width: 1200px;
+  position: absolute;
+  left: 50%;
+  top: 24vh;
+  transform: translate(-50%, -50%);
+}
+.column{
+  border: 1px solid pink;
+  width: 300px;
+  height: 169px;
+  margin: 5px;
+  padding: 10px;
   
-  .carousel-control {
-    text-shadow: 0;
-  }
-  
-  .carousel-control.left {
-      background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,.0001) 100%);
-      background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
-      background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,00001)));
-      background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%) !important;
-  }
-  
-  .carousel-control.right {
-      background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,.0001) 100%);
-      background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
-      background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,00001)));
-      background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%) !important;
+}
+.after-box {
+  clear: left;
+}
+.clearfix{
+  overflow: auto;
+}
+.center{
+  text-align: center;
+}
+.center div{
+  text-align: left;
+}
+.inlineExample{
+  display: inline-block;
+}
+#box1{
+  margin-right: 50px;
+  background-color: grey;
+  border-radius: 8px;
+  background-image: url('https://4.bp.blogspot.com/_mI8BYlP2-gY/SkhNh2Fe_tI/AAAAAAAAA8w/MC_jAS1HKiI/s400/MICHAEL-JACKSON.png'),
+    url('https://s3.amazonaws.com/images.oddlystudios.com/workshop/oddly/tatooine.jpg');
+}
+.artooScale{
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.artooIndividual{
+  background-size: 20%, cover;
+  background-repeat: no-repeat, repeat;
+  background-position: 0px 50px, top right;
+}
+
+.btn-white, .btn-white:focus {
+  display: inline-block;
+  margin: 0;
+  padding: 0px 15px;
+  font-family: inherit;
+  line-height: 1.66em;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none !important;
+  border-radius: 3px !important;
+  color: #e88421;
+  background: white;
+  border: 1px solid #e88421;
+  outline: none !important;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+  .btn-white:hover, .btn-white:active {
+      background-color: #e88421 !important;
+      border: 1px solid #e88421 !important;
+      color: white !important;
+      outline: none !important;
   }

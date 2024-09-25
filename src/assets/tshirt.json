@@ -5,14 +5,32 @@
         "sizes": ["XL", "XXL ", "3XL", "4XL"],
         "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
         "brand": "",
-        "price": "2000"
+        "price": "2000",
+        "description": "The Contessa Cotton Plain Half sleeve T-shirt will enhance your summertime look. This adaptable t-shirt provides comfort and style for daily wear, making it an essential addition to any summer outfit. Made from pure cotton fabric, it ensures comfort and breathability, keeping you cool and feeling fresh even on the hottest summer days. The free shape allows for free movement, and the standard half-sleeve design offers just the appropriate amount of coverage for sunny days. This t-shirt is the ideal option whether you're taking a relaxing stroll meeting friends for brunch, or running errands. Wear it with your go-to shorts, skirts, or jeans for carefree summer looks that work for any setting. This t-shirt is a lightweight must-have item for the summer because of its elegant black colour, which gives your outfit a fresh, summery vibe. It fits perfectly for a stylish and comfy summer outfit and size S is available.",
+        "productType": "Night Suits",
+        "Pattern": "Printed SLEEP SET",
+        "Sleeves": "Half Sleeves",
+        "fit": "Relaxed Fit",
+        "productMaterial": "Cotton",
+        "length": "Full Length",
+        "neck": "Spread Collar",
+        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"]
     },
     {
-        "id": 1,
+        "id": 2,
         "name": "PRINTED SHORT SLEEVE TSHIRT",
         "sizes": ["XL", "XXL ", "3XL", "4XL"],
         "colors": ["Red", "Blue", "Green", "Yellow", "Black", "White"],
         "brand": "",
-        "price": "2000"
+        "price": "2000",
+        "description": "",
+        "productType": "Night Suits",
+        "Pattern": "Printed SLEEP SET",
+        "Sleeves": "Half Sleeves",
+        "fit": "Relaxed Fit",
+        "productMaterial": "Cotton",
+        "length": "Full Length",
+        "neck": "Spread Collar",
+        "imageUrls": ["https://mdbootstrap.com/img/Photos/Others/images/16.jpg", "https://mdbootstrap.com/img/Photos/Others/images/16.jpg"]
     }
 ]

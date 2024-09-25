@@ -1,102 +1,62 @@
-<!--Bootstrap Full-Width Responsive Slider/Carousel + jquerySwipeTouch + Caption. If you like my work, please credit author: www.action360.ca @action360ca Enjoy!-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Muli:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<body>
+<div style="margin-top: 70px;">
+  <div class="carousel-container">
+    <ngb-carousel *ngIf="images.length > 0" [interval]="3000">
+      <ng-template ngbSlide *ngFor="let image of images; let i = index">
+        <img [src]="image" class="d-block" alt="Image {{ i + 1 }}" />
+      </ng-template>
+    </ngb-carousel>
+  </div>
+</div>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
-
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="https://s26.postimg.cc/7ayxq3q5l/cg5.jpg" width="100%">
-      <div class="carousel-caption">
-        <h3>First Slide</h3>
-        <p>Caption goes here<br></p>
-      </div>
-    </div>
-    <div class="item">
-      <img src="https://s26.postimg.cc/zccz3svft/cg6.jpg" width="100%">
-      <div class="carousel-caption">
-        <h3>Second slide</h3>
-        <p>Caption goes here</p>
-      </div>
-    </div>
-    <div class="item">
-      <img src="https://s26.postimg.cc/hyxmrttt5/cg1.jpg" width="100%">
-      <div class="carousel-caption">
-        <h3>Third slide</h3>
-        <p>Caption goes here</p>
-      </div>
-    </div>
-    <div class="item">
-      <img src="https://s26.postimg.cc/7g2ozrxgp/cg4.jpg" width="100%">
-      <div class="carousel-caption">
-        <h3>Fourth slide</h3>
-        <p>Caption goes here</p>
-      </div>
-    </div>
-    <div class="item">
-      <img src="https://s26.postimg.cc/l7244vg2x/cg2.jpg" width="100%">
-      <div class="carousel-caption">
-        <h3>Fifth slide</h3>
-        <p>Caption goes here</p>
-      </div>
+<div style="background-color: #ff009314; height: 50vh; border: 1px solid #ddd;">
+  <div class="vertWrapper">
+    <div class="wrapper clearfix center">
+      <div class="column inlineExample artooIndividual" id="box1" >I am a column</div>
+      <div class="column inlineExample artooIndividual" id="box1">I am a column</div>
+      <div class="column inlineExample artooIndividual" id="box1">I am a column</div>
     </div>
   </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
-<script>
-    $(".carousel").swipe({
-  swipe: function(
-    event,
-    direction,
-    distance,
-    duration,
-    fingerCount,
-    fingerData
-  ) {
-    if (direction == "left") $(this).carousel("next");
-    if (direction == "right") $(this).carousel("prev");
-  },
-  allowPageScroll: "vertical"
-});
 
-$(".carousel").swipe({
-  swipe: function(
-    event,
-    direction,
-    distance,
-    duration,
-    fingerCount,
-    fingerData
-  ) {
-    if (direction == "left") $(this).carousel("next");
-    if (direction == "right") $(this).carousel("prev");
-  },
-  allowPageScroll: "vertical"
-});
-</script>
+<div class="row" style="margin:0px; padding:60px 5% 40px 11%;" id="webDemo">
+  <div class="col-md-12" style="padding: 30px 0px; display: flex;">
+      <div class="col-md-7" style="padding: 0px; margin-top: 0px; width: 40%;">
+          <h1 style="font-family: Muli; font-size:50px; text-align: center; margin:0px 0px; text-shadow: 2px 2px 3px rgb(0 0 0 / 10%); color: #333; font-weight: bold;">
+              <span style="color:#512940"> Our Story </span>
+          </h1>
+
+          <div class="col-md-12" style="padding: 0px; margin-top: 60px;">
+              <div class="ani two" style="font-family: Muli; font-size: 20px; color: gray; font-weight:normal; line-height:32px;">
+                  <div style="display:block; font-size: 2.2vh; line-height: 3.5vh;">
+                      <p>
+                        "<b>Sigma Textiles & Garments Pvt. Ltd.</b>, located in the vibrant city of Ahmedabad, stands as a beacon of excellence in the garments manufacturing industry, boasting an impressive legacy of <b>35 years</b>. Our comprehensive production process begins at our state-of-the-art <b>Knitting and Dyeing Unit</b>, where we meticulously curate high-quality fabrics tailored to meet the diverse needs of our clientele. We specialize in crafting a wide range of women's apparel, including stylish leggings, comfortable T-shirts, elegant nightwear, cozy pajamas, and essential innerwear, all designed with the modern woman in mind. Each piece is expertly stitched and prepared at our facility, ensuring that every garment reflects our commitment to <b>quality and craftsmanship</b>. With a robust distribution network, we proudly ship our products across India and Globally, making Sigma Textiles & Garments a trusted name for those seeking <b>fashionable and durable clothing</b>. Experience the perfect blend of tradition and innovation with our garments, where quality truly meets excellence.
+                      </p>
+                      <!-- <p>
+                        Our state-of-the-art facilities include knitting, dyeing, and stitching units, allowing us to maintain top-quality standards. We adhere to both national and international guidelines, ensuring every product meets high benchmarks.  
+                      </p>
+                      <p>
+                        At Contessa, we prioritize creating a conducive work environment for our employees, fostering a culture of excellence and responsibility.
+                      </p> -->
+                      <!-- <span> Trusted by</span>  <span style="color: #e88421; font-weight:bold;font-size:30px;">{{cntCstrsStr}}+ </span> Manufacturers, -->
+                  </div>
+                 
+              </div>
+          </div>
+
+      </div>
+
+      <div class="col-md-4 col-md-push-1" style="padding: 100px 15px 30px; width: 50%; left: 8%; position: relative;">
+          <div class="col-md-12" style="padding: 0px;">
+              <!-- ngIf: !showToolsVideo --><img src="assets/ERPDemoVO1030.png" id="" style="width: -webkit-fill-available; border-radius:15px; border:5px solid #e5e5e5; box-shadow: 0 5px 10px rgba(0,0,0,10%); cursor: pointer;" ng-if="!showToolsVideo" ng-click="selectLanguage(2)" class="ng-scope"><!-- end ngIf: !showToolsVideo -->
+
+              <!-- ngIf: showToolsVideo -->
+          </div>
+      </div>
+  </div>
+</div>
+
+</body>
